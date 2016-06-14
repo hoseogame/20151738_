@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="콘솔게임엔진">
+      <UniqueIdentifier>{d7c54230-7537-47e3-94b2-c35d5a0c66f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="콘솔게임엔진\FootBall">
+      <UniqueIdentifier>{fd8628c2-57da-4e8b-8d72-e1b27fcbef96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="콘솔게임엔진\Heart">
+      <UniqueIdentifier>{b9ca7eeb-c0b7-4b9b-964b-93a7d9b92b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="콘솔게임엔진\Scene">
+      <UniqueIdentifier>{ae164f9c-d460-4856-bb98-426fb75928a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsolGameEngine.cpp">
+      <Filter>콘솔게임엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="FootBall.cpp">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Heart.cpp">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="FScreen.cpp">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClCompile>
+    <ClCompile Include="HScreen.cpp">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="FBall.cpp">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClCompile>
+    <ClCompile Include="FGoalDae.cpp">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClCompile>
+    <ClCompile Include="FPlayer.cpp">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClCompile>
+    <ClCompile Include="HStage.cpp">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="HBasket.cpp">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="HBar.cpp">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="HHeart.cpp">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="FStage.cpp">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>콘솔게임엔진\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>콘솔게임엔진\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>콘솔게임엔진\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsolGameEngine.h">
+      <Filter>콘솔게임엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="FootBall.h">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="FScreen.h">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClInclude>
+    <ClInclude Include="HScreen.h">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="FBall.h">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClInclude>
+    <ClInclude Include="FGoalDae.h">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClInclude>
+    <ClInclude Include="FPlayer.h">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClInclude>
+    <ClInclude Include="HStage.h">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="HBasket.h">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="HBar.h">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="HHeart.h">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="FStage.h">
+      <Filter>콘솔게임엔진\FootBall</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>콘솔게임엔진\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>콘솔게임엔진\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>콘솔게임엔진\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="stage.txt">
+      <Filter>콘솔게임엔진\Heart</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
